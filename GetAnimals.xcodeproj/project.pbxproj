@@ -23,6 +23,7 @@
 		7D0E428520BB5A7F0025A4AF /* lew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427620BB5A7F0025A4AF /* lew.mp3 */; };
 		7D0E428620BB5A7F0025A4AF /* brawo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427720BB5A7F0025A4AF /* brawo.mp3 */; };
 		7D0E428820BB5E130025A4AF /* EnergeticUpbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E428720BB5E130025A4AF /* EnergeticUpbeat.mp3 */; };
+		7D0E428A20BB6EBD0025A4AF /* kon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E428920BB6EBD0025A4AF /* kon.mp3 */; };
 		7DCDBA6620B74C0A00305E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6520B74C0A00305E15 /* AppDelegate.swift */; };
 		7DCDBA6820B74C0A00305E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6720B74C0A00305E15 /* ViewController.swift */; };
 		7DCDBA6B20B74C0A00305E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6920B74C0A00305E15 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		7D0E427620BB5A7F0025A4AF /* lew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lew.mp3; sourceTree = "<group>"; };
 		7D0E427720BB5A7F0025A4AF /* brawo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brawo.mp3; sourceTree = "<group>"; };
 		7D0E428720BB5E130025A4AF /* EnergeticUpbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EnergeticUpbeat.mp3; sourceTree = "<group>"; };
+		7D0E428920BB6EBD0025A4AF /* kon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kon.mp3; sourceTree = "<group>"; };
 		7DCDBA6220B74C0A00305E15 /* GetAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCDBA6520B74C0A00305E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCDBA6720B74C0A00305E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				7D0E427520BB5A7F0025A4AF /* tygrys.mp3 */,
 				7D0E427320BB5A7F0025A4AF /* zaba.mp3 */,
 				7D0E427120BB5A7F0025A4AF /* zonk.mp3 */,
+				7D0E428920BB6EBD0025A4AF /* kon.mp3 */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0E428320BB5A7F0025A4AF /* krowa.mp3 in Resources */,
+				7D0E428A20BB6EBD0025A4AF /* kon.mp3 in Resources */,
 				7D0E427F20BB5A7F0025A4AF /* slon.mp3 in Resources */,
 				7D0E428620BB5A7F0025A4AF /* brawo.mp3 in Resources */,
 				7D0E427D20BB5A7F0025A4AF /* click.mp3 in Resources */,
@@ -355,13 +359,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JUFA94DZT5;
+				DEVELOPMENT_TEAM = W475WK642J;
 				INFOPLIST_FILE = GetAnimals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = seb.GetAnimals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.openSolution.ismpEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,13 +377,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JUFA94DZT5;
+				DEVELOPMENT_TEAM = W475WK642J;
 				INFOPLIST_FILE = GetAnimals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = seb.GetAnimals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.openSolution.ismpEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
