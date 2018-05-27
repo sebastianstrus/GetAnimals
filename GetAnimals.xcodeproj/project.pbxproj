@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0E427820BB5A7F0025A4AF /* kot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426920BB5A7E0025A4AF /* kot.mp3 */; };
+		7D0E427920BB5A7F0025A4AF /* malpa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426A20BB5A7F0025A4AF /* malpa.mp3 */; };
+		7D0E427A20BB5A7F0025A4AF /* swinia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426B20BB5A7F0025A4AF /* swinia.mp3 */; };
+		7D0E427B20BB5A7F0025A4AF /* niedzwiedz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426C20BB5A7F0025A4AF /* niedzwiedz.mp3 */; };
+		7D0E427C20BB5A7F0025A4AF /* kogut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426D20BB5A7F0025A4AF /* kogut.mp3 */; };
+		7D0E427D20BB5A7F0025A4AF /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426E20BB5A7F0025A4AF /* click.mp3 */; };
+		7D0E427E20BB5A7F0025A4AF /* owca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E426F20BB5A7F0025A4AF /* owca.mp3 */; };
+		7D0E427F20BB5A7F0025A4AF /* slon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427020BB5A7F0025A4AF /* slon.mp3 */; };
+		7D0E428020BB5A7F0025A4AF /* zonk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427120BB5A7F0025A4AF /* zonk.mp3 */; };
+		7D0E428120BB5A7F0025A4AF /* pies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427220BB5A7F0025A4AF /* pies.mp3 */; };
+		7D0E428220BB5A7F0025A4AF /* zaba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427320BB5A7F0025A4AF /* zaba.mp3 */; };
+		7D0E428320BB5A7F0025A4AF /* krowa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427420BB5A7F0025A4AF /* krowa.mp3 */; };
+		7D0E428420BB5A7F0025A4AF /* tygrys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427520BB5A7F0025A4AF /* tygrys.mp3 */; };
+		7D0E428520BB5A7F0025A4AF /* lew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427620BB5A7F0025A4AF /* lew.mp3 */; };
+		7D0E428620BB5A7F0025A4AF /* brawo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E427720BB5A7F0025A4AF /* brawo.mp3 */; };
+		7D0E428820BB5E130025A4AF /* EnergeticUpbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E428720BB5E130025A4AF /* EnergeticUpbeat.mp3 */; };
 		7DCDBA6620B74C0A00305E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6520B74C0A00305E15 /* AppDelegate.swift */; };
 		7DCDBA6820B74C0A00305E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6720B74C0A00305E15 /* ViewController.swift */; };
 		7DCDBA6B20B74C0A00305E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDBA6920B74C0A00305E15 /* Main.storyboard */; };
@@ -15,6 +31,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0E426920BB5A7E0025A4AF /* kot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kot.mp3; sourceTree = "<group>"; };
+		7D0E426A20BB5A7F0025A4AF /* malpa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = malpa.mp3; sourceTree = "<group>"; };
+		7D0E426B20BB5A7F0025A4AF /* swinia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swinia.mp3; sourceTree = "<group>"; };
+		7D0E426C20BB5A7F0025A4AF /* niedzwiedz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = niedzwiedz.mp3; sourceTree = "<group>"; };
+		7D0E426D20BB5A7F0025A4AF /* kogut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kogut.mp3; sourceTree = "<group>"; };
+		7D0E426E20BB5A7F0025A4AF /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		7D0E426F20BB5A7F0025A4AF /* owca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = owca.mp3; sourceTree = "<group>"; };
+		7D0E427020BB5A7F0025A4AF /* slon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slon.mp3; sourceTree = "<group>"; };
+		7D0E427120BB5A7F0025A4AF /* zonk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zonk.mp3; sourceTree = "<group>"; };
+		7D0E427220BB5A7F0025A4AF /* pies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pies.mp3; sourceTree = "<group>"; };
+		7D0E427320BB5A7F0025A4AF /* zaba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zaba.mp3; sourceTree = "<group>"; };
+		7D0E427420BB5A7F0025A4AF /* krowa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = krowa.mp3; sourceTree = "<group>"; };
+		7D0E427520BB5A7F0025A4AF /* tygrys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tygrys.mp3; sourceTree = "<group>"; };
+		7D0E427620BB5A7F0025A4AF /* lew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lew.mp3; sourceTree = "<group>"; };
+		7D0E427720BB5A7F0025A4AF /* brawo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brawo.mp3; sourceTree = "<group>"; };
+		7D0E428720BB5E130025A4AF /* EnergeticUpbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EnergeticUpbeat.mp3; sourceTree = "<group>"; };
 		7DCDBA6220B74C0A00305E15 /* GetAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCDBA6520B74C0A00305E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCDBA6720B74C0A00305E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +68,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D0E426820BB5A690025A4AF /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E428720BB5E130025A4AF /* EnergeticUpbeat.mp3 */,
+				7D0E427720BB5A7F0025A4AF /* brawo.mp3 */,
+				7D0E426E20BB5A7F0025A4AF /* click.mp3 */,
+				7D0E426D20BB5A7F0025A4AF /* kogut.mp3 */,
+				7D0E426920BB5A7E0025A4AF /* kot.mp3 */,
+				7D0E427420BB5A7F0025A4AF /* krowa.mp3 */,
+				7D0E427620BB5A7F0025A4AF /* lew.mp3 */,
+				7D0E426A20BB5A7F0025A4AF /* malpa.mp3 */,
+				7D0E426C20BB5A7F0025A4AF /* niedzwiedz.mp3 */,
+				7D0E426F20BB5A7F0025A4AF /* owca.mp3 */,
+				7D0E427220BB5A7F0025A4AF /* pies.mp3 */,
+				7D0E427020BB5A7F0025A4AF /* slon.mp3 */,
+				7D0E426B20BB5A7F0025A4AF /* swinia.mp3 */,
+				7D0E427520BB5A7F0025A4AF /* tygrys.mp3 */,
+				7D0E427320BB5A7F0025A4AF /* zaba.mp3 */,
+				7D0E427120BB5A7F0025A4AF /* zonk.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		7DCDBA5920B74C0A00305E15 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +110,7 @@
 		7DCDBA6420B74C0A00305E15 /* GetAnimals */ = {
 			isa = PBXGroup;
 			children = (
+				7D0E426820BB5A690025A4AF /* sounds */,
 				7DCDBA6520B74C0A00305E15 /* AppDelegate.swift */,
 				7DCDBA6720B74C0A00305E15 /* ViewController.swift */,
 				7DCDBA6920B74C0A00305E15 /* Main.storyboard */,
@@ -124,9 +180,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0E428320BB5A7F0025A4AF /* krowa.mp3 in Resources */,
+				7D0E427F20BB5A7F0025A4AF /* slon.mp3 in Resources */,
+				7D0E428620BB5A7F0025A4AF /* brawo.mp3 in Resources */,
+				7D0E427D20BB5A7F0025A4AF /* click.mp3 in Resources */,
+				7D0E428820BB5E130025A4AF /* EnergeticUpbeat.mp3 in Resources */,
+				7D0E428120BB5A7F0025A4AF /* pies.mp3 in Resources */,
+				7D0E427920BB5A7F0025A4AF /* malpa.mp3 in Resources */,
+				7D0E427C20BB5A7F0025A4AF /* kogut.mp3 in Resources */,
+				7D0E427A20BB5A7F0025A4AF /* swinia.mp3 in Resources */,
 				7DCDBA7020B74C0B00305E15 /* LaunchScreen.storyboard in Resources */,
 				7DCDBA6D20B74C0B00305E15 /* Assets.xcassets in Resources */,
+				7D0E427E20BB5A7F0025A4AF /* owca.mp3 in Resources */,
+				7D0E428420BB5A7F0025A4AF /* tygrys.mp3 in Resources */,
+				7D0E428020BB5A7F0025A4AF /* zonk.mp3 in Resources */,
 				7DCDBA6B20B74C0A00305E15 /* Main.storyboard in Resources */,
+				7D0E427820BB5A7F0025A4AF /* kot.mp3 in Resources */,
+				7D0E428220BB5A7F0025A4AF /* zaba.mp3 in Resources */,
+				7D0E428520BB5A7F0025A4AF /* lew.mp3 in Resources */,
+				7D0E427B20BB5A7F0025A4AF /* niedzwiedz.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

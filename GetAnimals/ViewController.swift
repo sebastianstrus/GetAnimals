@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
+
+var player: AVAudioPlayer?
+
+var backgroundMusic: AVAudioPlayer?
 
 class ViewController: UIViewController {
     
@@ -79,6 +84,25 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //play background music
+        guard let url = Bundle.main.url(forResource: "jagodki", withExtension: "mp3") else { return }
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
+            backgroundMusic = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            /* iOS 10 and earlier require the following line:
+             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
+            guard let backgroundMusic = backgroundMusic else { return }
+            backgroundMusic.numberOfLoops = -1
+            backgroundMusic.volume = 0.3
+            backgroundMusic.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
+        
         frame1 = img1.frame
         frame2 = img2.frame
         frame3 = img3.frame
